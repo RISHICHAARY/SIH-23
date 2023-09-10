@@ -9,7 +9,7 @@ const Header = (props) => {
         <div className='header1'>
             <div className='header-content'>
                 <div className='heading1'>
-                    <h1>RES-Q</h1>
+                    <span className="k2d-font">RES-Q</span>
                 </div>
                 <div className='location'>
                     <div className="location-text">

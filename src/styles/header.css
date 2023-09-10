@@ -26,3 +26,10 @@
 .location-text {
     margin-right: 10px; 
 }
+.k2d-font {
+    font-family: 'K2D', sans-serif;
+    font-size: 55px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }

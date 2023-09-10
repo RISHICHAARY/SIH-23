@@ -1,0 +1,16 @@
+.complaint-content{
+    position: absolute;
+    display: flex;
+    top: 26rem;
+    left: 6%; 
+    z-index: 1000; 
+}
+.fire-btn,.snake-btn,.tree-btn,.thunder-btn,.edit-btn,.rain-btn{
+    width: 110px;
+    height: 110px;
+    padding:0px 40px;
+    background-color: white;
+    border: 1px solid #ddd; 
+    margin: 0px 10px;
+    border-radius: 5px; 
+}

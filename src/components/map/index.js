@@ -1,6 +1,7 @@
 import React from "react";
 import { useJsApiLoader, GoogleMap, Marker } from "@react-google-maps/api";
-
+import Complaint from '../complaint';
+import '../../styles/complaint.css';
 export default function Map(){
 
     const location = window.navigator && window.navigator.geolocation
@@ -44,6 +45,9 @@ export default function Map(){
                     fullscreenControl: false,
                 }}
             >
+            <div className="complaint-content">
+                <Complaint />
+            </div>
                 <Marker position={ userPosition } />
             </GoogleMap>
         </div>
