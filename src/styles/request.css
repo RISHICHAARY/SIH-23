@@ -1,0 +1,12 @@
+.request-content{
+    width: 1057px;
+    height: 559px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFD;
+    position: absolute;
+    display: flex;
+    top: 10rem;
+    left: 8%; 
+    z-index: 1000; 
+}
