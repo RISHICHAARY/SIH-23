@@ -23,8 +23,8 @@
     top: 5.5rem;
     bottom: 0;
     z-index: 1;
-    background-color: #27ae60;
-    color: #fff;
+    background-color: #FFFFDD;
+    color: #000000;
     width: 330px;
     padding: 20px;
     border-radius: 10px 0 0 10px;
@@ -34,7 +34,7 @@
     font-size: 1.5rem;
 }
 .near1{
-    background-color: #D2DE32;;
+    background-color: #D2DE32;
 }
 .near2{
     background-color: #D2DE32;
@@ -53,8 +53,16 @@
     transition: background-color 0.3s ease;
 }
 
-.near1:hover, .near2:hover, .near3:hover, .near4:hover, .news:hover {
-    background-color:#3498db;
+.near1:hover , .near2:hover{
+    background-color:#dbe55b;
+}
+
+.near3:hover , .near4:hover{
+    background-color: #b5d194;
+}
+
+.news:hover{
+    background-color: #f8e88f;
 }
 
 .near-content {
@@ -63,6 +71,8 @@
 .news{
     height:20rem;
     border: 2px solid #2ecc71;
+    background-color: #FBF0B2;
+    color: #000;
 }
 .news-content {
     background-color: #e74c3c;
@@ -78,6 +88,6 @@
     transition: background-color 0.3s ease;
 
     &:hover {
-        background-color: #3498db;
+        background-color: #fa1d05;
     }
 }
