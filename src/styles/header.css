@@ -6,14 +6,16 @@
     margin: auto;
     z-index: 1;
     height: 5.5rem;
-    background-color: #016A70;
+    background-color: #007f5f; /* Teal green */
+    background-image: linear-gradient(to left, #007f5f, #00b48a);
+    color: #fff;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
+    padding: 0 1rem;
     align-items: center;
-    padding: 1rem 0rem;
 }
 
 .location {
@@ -24,4 +26,3 @@
 .location-text {
     margin-right: 10px; 
 }
-
