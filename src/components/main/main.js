@@ -1,5 +1,13 @@
+import {BrowserRouter as Router , Route , Routes} from 'react-router-dom';
+
+import Home from "../home";
+
 export default function Main() {
   return (
-    <div></div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
