@@ -1,0 +1,21 @@
+.header1 {
+    height: 5.5rem;
+    background-color: #016A70;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location-text {
+    margin-right: 10px; 
+}
+
