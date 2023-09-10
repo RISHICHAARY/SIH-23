@@ -1,6 +1,7 @@
 .request-content{
     width: 1057px;
     height: 559px;
+    position: absolute;
     flex-shrink: 0;
     border-radius: 30px;
     background: #FFD;
@@ -10,3 +11,63 @@
     left: 8%; 
     z-index: 1000; 
 }
+.help-request{
+    padding: 10px;
+    margin-top: 12%;
+    margin-left: 8%;
+}
+.prob-tit{
+    padding-bottom: 25px;
+    display: flex;
+}
+.warning-img{
+    top:20%;
+}
+.prob-tit-txt{
+    border: none;
+    padding-left: 40px;
+    border-bottom: 2px solid #000;
+    width: 80%;
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    background-color: #FFD;
+    }
+.information{
+    padding-top: 25px;
+}
+.information-txt{
+    border: none;
+    padding-left: 40px;
+    border-bottom: 2px solid #000;
+    width: 80%;
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    background-color: #FFD;
+}
+.req-btn{
+    margin-top: 3rem;
+}
+button{
+    width: 872px;
+    height: 80px;
+    flex-shrink: 0;
+    background-color: #016A70;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 30px;
+}
+

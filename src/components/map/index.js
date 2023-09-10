@@ -1,8 +1,6 @@
 import React from "react";
 import { useJsApiLoader, GoogleMap, Marker } from "@react-google-maps/api";
-import Complaint from '../complaint';
 import Request from '../helprequest';
-import '../../styles/complaint.css';
 import '../../styles/request.css';
 export default function Map(){
 
@@ -49,9 +47,6 @@ export default function Map(){
             >
             <div className="request-content">
                 <Request />
-            </div>
-            <div className="complaint-content">
-                <Complaint />
             </div>
                 <Marker position={ userPosition } />
             </GoogleMap>
